@@ -1,0 +1,28 @@
+div{
+    text-align: center;
+}
+
+.timerbutton{
+    box-shadow: 1px 1px;
+    background-color: white;
+}
+
+.timerbutton:hover{
+    color: white;
+    background-color: black;
+}
+
+button{
+    
+    box-shadow: 2px 2px;
+    background-color: white;
+}
+
+button:hover{
+    color: white;
+    background-color: black;
+}
+
+input:focus{
+    outline: 2px black solid;
+}

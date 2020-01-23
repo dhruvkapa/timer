@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <script src="https://kit.fontawesome.com/0f43b44c94.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="timer.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/accordion.css" rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+
+<body>
+    <div>
+        <h1>Timer <i class="far fa-clock"></i></h1>
+    </div>
+    <div>
+    <label id="label">25:59</label> <br>
+
+    <button class="timerbutton" type="button"  id="start">Start</button>
+    
+    <button class="timerbutton" type="button" id="stop">Stop</button>
+    <button class="timerbutton" type="button"  id="reset">Reset</button>
+    
+    <form>
+     <input id="minutes" type="text" placeholder="Set Minutes" >
+     <button onclick = "setInputMinutes(),false" id="submit" type="button">Set Minutes</button>
+
+     <input id="seconds" type="text" placeholder="Set Seconds" >
+        <button onclick = "setInputSeconds(),false" id="submit" type="button">Set Seconds</button>
+    </form>
+</div>
+
+</body>
+
+</html>
+<script src="timer.js"></script>
